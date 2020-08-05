@@ -26,7 +26,7 @@ EOF
   gem.add_dependency 'sequel',      ['>= 4.1.0', '< 5.0']
 
   gem.add_development_dependency 'rspec',          '~> 3.0'
-  gem.add_development_dependency 'rake',           '~> 12'
+  gem.add_development_dependency 'rake',           '~> 13'
   gem.add_development_dependency 'rubygems-tasks', '~> 0.2'
   if RUBY_PLATFORM == "java"
     gem.add_development_dependency 'jdbc-sqlite3', '~> 3.15', '>= 3.15.0'
